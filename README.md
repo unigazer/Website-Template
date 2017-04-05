@@ -16,5 +16,5 @@ That's it. Your development environment is now set up.
 
 ## Info about the upcoming "React.js IDE"
 
-Also if you are working on a React.js website, there is now an IDE for React.js development.
+If you are working on a React.js website, there is now an IDE for React.js development.
 Go and check it out : https://github.com/reactide/reactide
