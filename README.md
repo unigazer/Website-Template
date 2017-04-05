@@ -13,3 +13,6 @@ After that, go to ''Website-Template'' repository and type :
 ``lite-server``
 
 That's it. Your development environment is now set up.
+
+Also if you are working on a React.js website, there is now an IDE for React.js development.
+Go and check it out : https://github.com/reactide/reactide
