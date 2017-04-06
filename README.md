@@ -20,7 +20,7 @@ I also <b>recommend</b> importing these so that your images scale <b>properly</b
  <picture>
    <!-- Full HD Resolution -->
    <source srcset="https://placehold.it/1920x1080" media="(min-width: 1920px)" />
-   <!-- Samsung Galaxy S7 -->
+   <!-- Samsung Galaxy S7 Edge -->
    <source srcset="https://placehold.it/1442x2562" media="(min-width: 1442px)" />
    <!-- HiDPI Laptop -->
    <source srcset="https://placehold.it/1440x900" media="(min-width: 1440px)" />
