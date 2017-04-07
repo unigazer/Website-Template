@@ -42,7 +42,7 @@ This is only for the landing page.
    <!-- iPhone 5 -->
    <source srcset="https://placehold.it/320x568" media="(min-width: 320px)" />
    <!-- If the browser doesn't support "srcset" attribute, then load the default resolution -->
-   <img src="https://placehold.it/1366x768" />
+   <img src="https://placehold.it/1366x768" alt="Background"/>
  </picture>
 ```
 
