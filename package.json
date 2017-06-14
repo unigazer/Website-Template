@@ -1,0 +1,23 @@
+{
+  "name": "website-template",
+  "version": "1.0.2",
+  "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirDev93/Website-Template.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Jovanovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladimirDev93/Website-Template/issues"
+  },
+  "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
