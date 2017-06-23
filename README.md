@@ -17,7 +17,7 @@ After that, go to ''Website-Template'' repository and type :
 That's it. Your development environment is now set up.
 
 I also <b>recommend</b> importing these so that your images scale <b>properly</b> on every device.
-This is only for the landing page.
+These are only for the landing page.
 
 ```html
  <picture>
