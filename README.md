@@ -8,7 +8,7 @@ First, install the ``npm`` package manager : https://nodejs.org/
 
 Then open up command line and type :
 
-``npm install -g lite-server``
+``npm i -g lite-server``
 
 After that, go to ''Website-Template'' repository and type :
 
