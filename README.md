@@ -8,13 +8,42 @@ First, install the ``npm`` package manager : https://nodejs.org/
 
 Then open up command line and type :
 
-``npm i -g lite-server``
-
+```bash
+npm i -g lite-server
+```
 After that, go to ''Website-Template'' repository and type :
 
-``lite-server``
+```bash
+lite-server
+```
 
 That's it. Your development environment is now set up.
+
+After you start developing, all you have to do in your current working directory is
+```bash
+npm run build
+```
+Run this command every time you want to see compiled ES7 JavaScript code.
+
+If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something like this
+```javascript
+import className from 'javascriptlibrary'
+
+const mssg = "Hello World!";
+let button = document.getElementById('btn');
+
+function showMessage() {
+  alert(mssg);
+}
+
+button.addEventListener('click', showMessage());
+
+```
+
+You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**.
+See the [documentation]('https://github.com/babel/babel') for more info.
+
+Starting from **Google Chrome v61+**, ES7 is compiled natively.
 
 I also <b>recommend</b> importing these so that your images scale <b>properly</b> on every device.
 These are only for the landing page.
@@ -54,7 +83,7 @@ If you are working on a React.js website, there is now an IDE for React.js devel
 Go and check it out : https://github.com/reactide/reactide
 
 ## Licence
- 
+
 MIT License
 
 Copyright (c) 2017 Vladimir Jovanović
