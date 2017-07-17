@@ -41,7 +41,7 @@ button.addEventListener('click', showMessage());
 ```
 
 You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**.
-See the [documentation]('https://github.com/babel/babel') for more info.
+See the [documentation]("https://github.com/babel/babel") for more info.
 
 Starting from **Google Chrome v61+**, **ES6** is compiled natively.
 
