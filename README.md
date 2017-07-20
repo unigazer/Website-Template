@@ -19,6 +19,8 @@ lite-server
 
 That's it. Your development environment is now set up.
 
+## Usage
+
 Navigate to ``src`` folder and edit your files from there.
 After you start developing, all you have to do in your current working directory is
 ```bash
