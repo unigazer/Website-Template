@@ -1,7 +1,5 @@
-// And so it begins...
-import className from 'javascriptlibrary';
 
-// Variables
+// And so it begins...
 const mssg = "Hello!";
 
 function myFunction() {
