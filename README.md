@@ -22,12 +22,21 @@ That's it. Your development environment is now set up.
 
 # Usage
 
-Navigate to `src` folder and edit your files from there. After you start developing, all you have to do in your current working directory is
 
+1. Open the terminal in ``Website Template`` directory, and enter the following command first.
+```bash
+sudo npm i 
+```
+
+2. Run the following command in your terminal, in your **current working directory**, in order to configure ESLint file.
+```bash
+eslint --init
+```
+3. Navigate to `src` folder and edit your files from there.
+After you start developing, run this command in your terminal in order to see your code in your default browser.
 ```bash
 npm run build
 ```
-
 Run this command every time you want to see compiled ES7 JavaScript code.
 
 If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something like this
