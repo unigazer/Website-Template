@@ -6,38 +6,32 @@ The basic setup for Bootstrap web page. It's not rocket science, it's just copy/
 
 First, install the `npm` package manager : <https://nodejs.org/>
 
-Then open up command line and type :
+After that, go to 'Website-Template' repository and type :
 
 ```bash
-npm i -g lite-server
+npm i
 ```
 
-After that, go to ''Website-Template'' repository and type :
-
-```bash
-lite-server
-```
-
-That's it. Your development environment is now set up.
+This will install and set everything up for development.
 
 # Usage
 
 
-1. Open the terminal in ``Website Template`` directory, and enter the following command first.
-```bash
-sudo npm i 
-```
-
-2. Run the following command in your terminal, in your **current working directory**, in order to configure ESLint file.
+1. Run the following command in your terminal, in your **current working directory**, in order to configure ESLint file.
 ```bash
 eslint --init
 ```
-3. Navigate to `src` folder and edit your files from there.
+2. Navigate to `src` folder and edit your files from there.
 After you start developing, run this command in your terminal in order to see your code in your default browser.
+```bash
+npm run dev
+```
+Run this command every time you want to see compiled ES7 JavaScript code.
+
+3. When you are ready to publish your project
 ```bash
 npm run build
 ```
-Run this command every time you want to see compiled ES7 JavaScript code.
 
 If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something like this
 
