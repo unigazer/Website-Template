@@ -36,21 +36,21 @@ npm run build
 If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something like this
 
 ```javascript
-// Importing libraries
+// Importing libraries, this possible only with webpack
 import className from 'javascriptlibrary'
 
 // Declaring variables
 const mssg = "Hello World!";
-let button = document.getElementById('btn');
+var button = document.getElementById('btn');
 
-function showMessage() {
+var showMessage = () => {
   alert(mssg);
-}
+};
 
-button.addEventListener('click', showMessage());
+button.addEventListener('click', showMessage);
 ```
 
-You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**. See the [documentation]("https://github.com/babel/babel") for more info.
+You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a transpiler for that. In this project, I've implemented **Babel**. See the [documentation]("https://github.com/babel/babel") for more info.
 
 Starting from **Google Chrome v61+**, **ES6** is compiled natively.
 

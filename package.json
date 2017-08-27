@@ -1,11 +1,11 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
-    "dev": "babel src -d dist && webpack-dev-server",
+    "dev": "babel src -d dist && webpack-dev-server --inline --hot",
     "build": "webpack -p"
   },
   "repository": {

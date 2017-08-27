@@ -1,14 +1,17 @@
-var path = require('path');
+var path = require("path");
 module.exports = {
   entry: {
-  	app: ['./dist/js/app.js']
+    app: ["./dist/js/app.js"]
   },
   output: {
-  	path: path.join(__dirname, './dist/js'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, "./dist/js/"),
+    filename: "bundle.js"
   },
   devServer: {
-  	https: true,
-  	port: 8080
+    https: true,
+    port: 8080,
+    compress: true,
+    stats: 'errors-only',
+    open: true
   }
 };
