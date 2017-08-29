@@ -7,8 +7,22 @@ module.exports = {
     path: path.resolve(__dirname, "./dist/js/"),
     filename: "bundle.js"
   },
+  module: {
+    loaders: [{
+        test: /\.js$/,
+        include: path.resolve(__dirname, './dist/js/'),
+        loader: 'babel',
+        query: {
+          presets: ['es2016']
+        }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      }
+    ]
+  },
   devServer: {
-    https: true,
     port: 8080,
     compress: true,
     stats: 'errors-only',
