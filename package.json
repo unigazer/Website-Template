@@ -5,7 +5,8 @@
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
-    "dev": "babel src -d dist && webpack-dev-server --inline --hot",
+    "dev": "babel src -d dist && npm test",
+  	"test": "webpack-dev-server --inline --hot",
     "build": "webpack -p"
   },
   "repository": {
