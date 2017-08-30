@@ -43,11 +43,11 @@ If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something 
 
 ```javascript
 // Importing libraries
-import className from 'javascriptlibrary'
+import className from 'javascriptlibrary';
 
 // Declaring variables
 const mssg = "Hello World!";
-let button = document.getElementById('btn');
+const button = document.getElementById('btn');
 
 function showMessage() {
   alert(mssg);
