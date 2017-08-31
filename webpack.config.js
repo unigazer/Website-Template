@@ -1,7 +1,7 @@
 var path = require("path");
 module.exports = {
   entry: {
-    app: ["./dist/js/app.js"]
+    app: ["./src/js/app.js"]
   },
   output: {
     path: path.resolve(__dirname, "./dist/js/"),
@@ -20,11 +20,16 @@ module.exports = {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
       }
-    ]
+    ],
+    rules: {
+      test: /\.scss$/,
+      use: {
+        loader: "sass-loader"
+      }
+    }
   },
   devServer: {
     port: 8080,
-    compress: true,
     stats: 'errors-only',
     open: true
   }

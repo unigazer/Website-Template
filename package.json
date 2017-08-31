@@ -1,13 +1,14 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "dev": "babel src -d dist && npm test",
-  	"test": "webpack-dev-server --inline --hot",
-    "build": "webpack -p"
+    "test": "webpack-dev-server --inline --hot",
+    "prebuild": "webpack -p",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,16 @@
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
-  	"babel-cli": "^6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "css-lodaer": "^0.28.7",
     "eslint": "^4.5.0",
     "gulp": "^3.9.1",
     "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.5.3",
     "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   }
