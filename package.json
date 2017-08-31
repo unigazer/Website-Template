@@ -5,10 +5,10 @@
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
-    "dev": "babel src -d dist && npm test",
-    "test": "webpack-dev-server --inline --hot",
+    "dev": "babel src -d dist",
+    "watch": "webpack-dev-server --inline --hot",
     "prebuild": "webpack -p",
-    "build": "gulp"
+    "build": "gulp uglify"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
-    "css-lodaer": "^0.28.7",
+    "css-loader": "^0.28.7",
     "eslint": "^4.5.0",
     "gulp": "^3.9.1",
     "gulp-uglify": "^3.0.0",

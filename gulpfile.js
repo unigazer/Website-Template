@@ -6,7 +6,7 @@ gulp.task('compress', function (cb) {
   pump([
         gulp.src('dist/js/*.js'),
         uglify(),
-        gulp.dest('dist')
+        gulp.dest('dist/js/')
     ],
     cb
   );
