@@ -1,16 +1,16 @@
 var path = require("path");
 module.exports = {
   entry: {
-    app: ["./src/js/app.js"]
+    app: ["./src/"]
   },
   output: {
-    path: path.resolve(__dirname, "./dist/js/"),
+    path: path.resolve(__dirname, "./dist/"),
     filename: "bundle.js"
   },
   module: {
     loaders: [{
         test: /\.js$/,
-        include: path.resolve(__dirname, './dist/js/'),
+        include: path.resolve(__dirname, './dist/'),
         loader: 'babel',
         query: {
           presets: ['es2016']

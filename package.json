@@ -1,12 +1,12 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "dev": "babel src -d dist",
-    "watch": "webpack-dev-server --inline --hot",
+    "watch": "webpack-dev-server --hot",
     "prebuild": "webpack -p",
     "build": "gulp uglify"
   },
