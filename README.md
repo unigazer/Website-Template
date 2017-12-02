@@ -46,7 +46,7 @@ If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something 
 import className from 'javascriptlibrary';
 
 // Declaring variables
-const mssg = "Hello World!";
+let mssg = "Hello World!";
 const button = document.getElementById('btn');
 
 var showMessage = () => {
