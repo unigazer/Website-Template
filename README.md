@@ -49,11 +49,11 @@ import className from 'javascriptlibrary';
 const mssg = "Hello World!";
 const button = document.getElementById('btn');
 
-function showMessage() {
+var showMessage = () => {
   alert(mssg);
 }
 
-button.addEventListener('click', showMessage);
+button.addEventListener('click', showMessage());
 ```
 
 You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**. See the [documentation]("https://github.com/babel/babel") for more info.
@@ -98,6 +98,7 @@ If you don't want to write code for responsive images in `HTML`, you can also do
     background-image: url('path-to-image');
     background-position: center;
     background-size: cover;
+    backround-attachment: no-repeat;
     width: 100%;
     height: auto;
   }
