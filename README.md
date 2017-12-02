@@ -2,25 +2,7 @@
 
 The basic setup for Bootstrap web page. It's not rocket science, it's just copy/paste code. I made this so that everytime when I'm working on a new project, I don't have to type the links for stylesheets in the head tag everytime and basically I don't have to set up the basic HTML template everytime.
 
-# Configuration
-
-First, install the `npm` package manager : <https://nodejs.org/>
-
-Then open up command line and type :
-
-```bash
-npm i -g lite-server
-```
-
-After that, go to ''Website-Template'' repository and type :
-
-```bash
-lite-server
-```
-
-That's it. Your development environment is now set up.
-
-# Usage
+# Instalation
 
 
 1. Open the terminal in ``Website Template`` directory, and enter the following command first.
