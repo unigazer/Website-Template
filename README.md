@@ -30,7 +30,7 @@ sudo npm i
 
 2. Run the following command in your terminal, in your **current working directory**, in order to configure ESLint file.
 ```bash
-eslint --init
+npm run eslint
 ```
 3. Navigate to `src` folder and edit your files from there.
 After you start developing, run this command in your terminal in order to see your code in your default browser.
@@ -49,11 +49,11 @@ import className from 'javascriptlibrary';
 let mssg = "Hello World!";
 const button = document.getElementById('btn');
 
-var showMessage = () => {
-  alert(mssg);
-}
+// Arrow function
+var showMessage = () => alert(mssg);
 
-button.addEventListener('click', showMessage());
+// onload event
+self.addEventListener('load', showMessage());
 ```
 
 You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**. See the [documentation]("https://github.com/babel/babel") for more info.
