@@ -21,12 +21,19 @@ module.exports = {
         loader: 'style-loader!css-loader'
       }
     ],
-    rules: {
+    rules: [{
       test: /\.scss$/,
-      use: {
-        loader: "sass-loader"
-      }
-    }
+      use: [{
+        loader: "style-loader"
+      }, {
+        loader: "css-loader"
+      }, {
+        loader: "sass-loader",
+        options: {
+          includePaths: ["./src/css/", "./dist/css/"]
+        }
+      }]
+    }]
   },
   devServer: {
     port: 8080,
