@@ -1,10 +1,11 @@
-
 // And so it begins...
-const mssg = "Hello!";
-const app = document.getElementById('root');
 
-function myFunction() {
-  alert(mssg);
-}
+// Declaring variables
+let mssg = "Hello World!";
+const button = document.getElementById('btn');
 
-myFunction();
+// Arrow function
+var myFunction = () => alert(mssg);
+
+// onload event
+self.addEventListener('load', myFunction());
