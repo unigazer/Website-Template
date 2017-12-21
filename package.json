@@ -23,14 +23,14 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.7",
-    "eslint": "^4.13.0",
+    "eslint": "^4.13.1",
     "gulp": "^3.9.1",
     "gulp-uglify": "^3.0.0",
     "node-sass": "^4.7.2",
     "path": "^0.12.7",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.9.1",
-    "webpack-dev-server": "^2.9.5"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
