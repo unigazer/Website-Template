@@ -40,9 +40,9 @@ var showMessage = () => alert(mssg);
 
 // Promises (async)
 var get = url => {
-  return new Promise ((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     // JSON GET Method
-  })
+  });
 }
 let promise = get('URL');
 promise.then(() => {
@@ -51,7 +51,7 @@ promise.then(() => {
    // code
 }).catch(() => {
   // if error
-})
+});
 
 // onload event
 self.addEventListener('load', showMessage());
