@@ -40,7 +40,7 @@ var showMessage = () => alert(mssg);
 
 // Promises (async)
 var get = url => {
-  return new Promise ((return, resolve) => {
+  return new Promise ((resolve, reject) => {
     // JSON GET Method
   })
 }
