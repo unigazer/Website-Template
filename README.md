@@ -39,7 +39,7 @@ const button = document.getElementById('btn');
 var showMessage = () => alert(mssg);
 
 // Promises (async)
-let get = url => {
+var get = url => {
   return new Promise ((return, resolve) => {
     // JSON GET Method
   })
