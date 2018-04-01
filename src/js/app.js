@@ -8,4 +8,4 @@ const button = document.getElementById('btn');
 var myFunction = () => alert(mssg);
 
 // onload event
-self.addEventListener('load', myFunction());
+addEventListener('load', myFunction());
