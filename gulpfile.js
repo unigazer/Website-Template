@@ -4,7 +4,7 @@ var pump = require('pump');
  
 gulp.task('compress', function (cb) {
   pump([
-        gulp.src('dist/js/*.js'),
+        gulp.src('src/js/*.js'),
         uglify(),
         gulp.dest('dist/js/')
     ],

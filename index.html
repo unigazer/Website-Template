@@ -4,7 +4,7 @@
 <head>
 
   <!-- Basic configuration of the page -->
-  <title>HTTP 200</title>
+  <title>200 OK</title>
   <link rel="shortcut icon" href="favicon.ico">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width , initial-scale=1.0">
@@ -12,6 +12,7 @@
   <meta name="description" content="...">
   <meta name="keywords" content="...">
   <meta name="theme-color" content="your-color-hexcode-goes-here">
+  <meta name="application-name" content="GitHub">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Twitter meta -->
   <meta name="twitter:card" content="summary">
@@ -23,9 +24,10 @@
   <meta property="og:site_name" content="Lorem">
   <meta property="og:description" content="Lorem Ipsum">
   <meta property="og:url" content="https://www.mysite.com/index.html">
-  <meta property="og:image" content="https://www.mysite.com/meta-image.png">
+  <meta property="og:image" content="https://www.mysite.com/dist/img/meta-image.png">
   <meta property="og:type" content="product">
-  <meta name="robots" content="index">
+  <meta name="robots" content="index,archive">
+  <meta name="google" content="notranslate">
   <link rel="canonical" href="https://www.thissiteurl.com">
   
   <!-- Manifest for Service Worker -->
@@ -34,11 +36,8 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="./src/css/app.css">
 
-  <!-- Fonts Awesome v5.0.10 -->
-  <script defer src="//use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
-
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/css/bootstrap-grid.min.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,19 +62,16 @@
   </footer>
 
   <!-- jQuery 3.3.1 -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./dist/js/jquery-3.3.1.min.js"></script>
 
   <!-- Popper JS -->
-  <script async src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.min.js"></script>
+  <script async src="./dist/js/popper.min.js"></script>
 
   <!-- Bootstrap JavaScript -->
-  <script async src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script async src="./dist/js//bootstrap.min.js"></script>
 
   <!-- Main JavaScript. After the webpack production, change to "bundle.js"-->
   <script src="./src/js/app.js"></script>
-
-  <!-- Google Analytics -->
-  <script async src="//www.google-analytics.com/analytics.js"></script>
 
   <!-- Console message output -->
   <script>

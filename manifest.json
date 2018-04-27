@@ -1,5 +1,5 @@
 {
-    "name": "Site title",
+    "name": "App title",
     "short_name": "app_name",
     "start_url": "https://www.mysite.com",
     "orientation": "portrait",

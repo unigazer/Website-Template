@@ -25,42 +25,6 @@ After you start developing, run this command in your terminal in order to see yo
 npm run start
 ```
 
-If you don't know how ES7 (ECMAScript 2016) code looks like, it looks something like this
-
-```javascript
-// Importing libraries
-import className from 'javascriptlibrary';
-
-// Declaring variables
-let mssg = 'Hello World!';
-const button = document.getElementById('btn');
-
-// Arrow function
-var showMessage = () => alert(mssg);
-
-// Promises (async)
-var get = url => {
-  return new Promise((resolve, reject) => {
-    // JSON GET Method
-  });
-}
-let promise = get('URL');
-promise.then(() => {
-   // code
-}).then(() => {
-   // code
-}).catch(() => {
-  // if error
-});
-
-// onload event
-self.addEventListener('load', showMessage());
-```
-
-You can't write code like that and use it in your browser because web browsers don't support ES7 code yet. You need a compiler for that. In this project, I've implemented **Babel**. See the [documentation]("https://github.com/babel/babel") for more info.
-
-Starting from **Google Chrome v61+**, **ES6** is compiled natively.
-
 # Info about the upcoming "React.js IDE"
 
 If you are working on a React.js website, there is now an IDE for React.js development. Go and check it out : <https://github.com/reactide/reactide>

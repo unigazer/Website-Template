@@ -1,9 +1,28 @@
 /* Header configs. */
 
+@font-face {
+    font-family: 'Font Awesome 5 Regular';
+    src: local('Font Awesome 5 Regular'), url('../dist/fonts/fa-regular-400.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Solid';
+    src: local('Font Awesome 5 Solid'), url('../dist/fonts/fa-solid-900.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: local('Font Awesome 5 Brands'), url('../dist/fonts/fa-brands-400.woff2') format('woff2');
+}
+
 header {
+    width: 100%;
+    height: inherit;
 }
 
 /* Footer */
 
 footer {
+    width: 100%;
+    height: inherit;
 }
