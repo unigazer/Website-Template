@@ -2,11 +2,12 @@
 var CACHE = 'my-cache-name';
 
 // Install event
-addEventListener('install', function (e) {
+addEventListener('install', e => {
     e.waitUntil(
         caches.open(CACHE).then(cache => {
             return cache.addAll([
-                // Add your files here. Must be absolute path
+                // Add your files here, those that are needed by the index.html. Must be absolute path
+                './',
                 'index.html',
                 'manifest.json',
                 './dist/css/bootstrap-grid.css',
@@ -24,22 +25,22 @@ addEventListener('install', function (e) {
 });
 
 // Fetch event
-addEventListener('fetch', function (e) {
+addEventListener('fetch', e => {
     e.respondWith(fromCache(e.request));
     e.waitUntil(updateCache(e.request));
 });
 
-function fromCache(request) {
-    return caches.open(CACHE).then(function (cache) {
-        return cache.match(request).then(function (response) {
+var fromCache = request => {
+    return caches.open(CACHE).then(cache => {
+        return cache.match(request).then(response => {
             return response || Promise.reject('no-match');
         });
     });
 };
 
-function updateCache(request) {
-    return caches.open(CACHE).then(function (cache) {
-        return fetch(request).then(function (response) {
+var updateCache = request => {
+    return caches.open(CACHE).then(cache => {
+        return fetch(request).then(response => {
             return cache.put(request, response);
         });
     });
