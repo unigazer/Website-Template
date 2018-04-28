@@ -5,7 +5,7 @@ var CACHE = 'my-cache-name';
 addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE).then(cache => {
-            cache.addAll([
+            return cache.addAll([
                 // Add your files here. Must be absolute path
                 'index.html',
                 'manifest.json',
