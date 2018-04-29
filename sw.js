@@ -30,6 +30,7 @@ addEventListener('fetch', e => {
     e.waitUntil(updateCache(e.request));
 });
 
+// Load from cache
 var fromCache = request => {
     return caches.open(CACHE).then(cache => {
         return cache.match(request).then(response => {
@@ -38,6 +39,7 @@ var fromCache = request => {
     });
 };
 
+// Fetch from network
 var updateCache = request => {
     return caches.open(CACHE).then(cache => {
         return fetch(request).then(response => {
