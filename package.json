@@ -1,7 +1,7 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
@@ -26,9 +26,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "eslint": "^4.14.0",
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.0",
-    "local-web-server": "^2.5.1"
+    "local-web-server": "^2.5.2"
   }
 }

@@ -10,15 +10,11 @@ addEventListener('install', e => {
                 './',
                 'index.html',
                 'manifest.json',
-                './dist/css/bootstrap-grid.css',
+                './dist/css/style.min.css',
                 './dist/fonts/fa-brands-400.woff2',
                 './dist/fonts/fa-regular-400.woff2',
                 './dist/fonts/fa-solid-900.woff2',
-                './dist/js/bootstrap.min.js',
-                './dist/js/jquery-3.3.1.min.js',
-                './dist/js/popper.min.js',
-                './src/css/app.css',
-                './src/js/app.js'
+                './dist/js/main.min.js'
             ]);
         })
     );

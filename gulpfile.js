@@ -4,12 +4,14 @@ const gulp = require('gulp'),
     html = require('gulp-minify-html'),
     concat = require('gulp-concat');
 
+// Failing on latest Node v10
+/*
 gulp.task('scripts', () => {
     return gulp.src('src/js/*.js')
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
-});
+});*/
 
 gulp.task('stylesheet', () => {
     return gulp.src('src/css/*.css')
@@ -24,4 +26,4 @@ gulp.task('html', () => {
         .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', ['scripts', 'stylesheet', 'html']);
+gulp.task('default', ['stylesheet', 'html']);
