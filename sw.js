@@ -1,3 +1,5 @@
+// You can also use your app in Offline mode, it's already configured
+
 // Enter your custom cache name
 var CACHE = 'my-cache-name';
 
@@ -9,7 +11,6 @@ addEventListener('install', e => {
                 // Add your files here, those that are needed by the index.html. Must be absolute path
                 './',
                 'index.html',
-                'manifest.json',
                 './dist/css/style.min.css',
                 './dist/fonts/fa-brands-400.woff2',
                 './dist/fonts/fa-regular-400.woff2',
@@ -43,3 +44,21 @@ var updateCache = request => {
         });
     });
 };
+
+// Push event
+// You need to subscribe the user in order for this to work
+addEventListener('push', e => {
+    const payload = e.data.json();
+    
+    // Send the notification
+    self.registration.showNotification('My custom title', {
+        body: payload.key.value,
+        icon: 'path-to-icon',
+        url: 'https://www.example.com'
+    }
+});
+
+// Close the notification
+addEventListener('notificationclick', e => {
+    e.notification.close();
+});
