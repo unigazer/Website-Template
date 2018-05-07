@@ -4,26 +4,24 @@ const gulp = require('gulp'),
     html = require('gulp-minify-html'),
     concat = require('gulp-concat');
 
-// Failing on latest Node v10
-/*
 gulp.task('scripts', () => {
     return gulp.src('src/js/*.js')
         .pipe(concat('main.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('dist/js'));
-});*/
+        .pipe(gulp.dest('./punlic/dist/js'));
+});
 
 gulp.task('stylesheet', () => {
     return gulp.src('src/css/*.css')
         .pipe(concat('style.min.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('./public/dist/css'));
 });
 
 gulp.task('html', () => {
     return gulp.src('./src/index.html')
         .pipe(html())
-        .pipe(gulp.dest('./'));
+        .pipe(gulp.dest('./public/'));
 });
 
 gulp.task('default', ['stylesheet', 'html']);
