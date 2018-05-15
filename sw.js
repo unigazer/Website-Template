@@ -46,7 +46,7 @@ var updateCache = request => {
 };
 
 // Push event
-// You need to subscribe the user in order for this to work
+// You need to subscribe the user on frontend in order for this to work
 addEventListener('push', e => {
     const payload = e.data.json();
     
