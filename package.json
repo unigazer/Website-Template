@@ -1,13 +1,16 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "start": "ws",
     "build": "gulp",
-    "eslint": "eslint --init"
+    "eslint": "eslint --init",
+    "test": "ava --verbose ./test/main.test.js",
+    "nyc": "nyc ava --verbose ./src/js",
+    "coverage": "nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -19,11 +22,12 @@
     "url": "https://github.com/VladimirDev93/Website-Template/issues"
   },
   "engines": {
-    "node": "latest",
-    "npm": "latest"
+    "node": "v8.11.1",
+    "npm": "v5.7.0"
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
+    "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.19.1",
@@ -32,6 +36,7 @@
     "gulp-csso": "^3.0.1",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.0",
-    "local-web-server": "^2.5.2"
+    "local-web-server": "^2.5.2",
+    "nyc": "^11.7.3"
   }
 }
