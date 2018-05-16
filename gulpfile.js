@@ -6,7 +6,7 @@ const gulp = require('gulp'),
 
 // Move fonts
 gulp.task('fonts', () => {
-    return gulp.src('./src/fonts')
+    return gulp.src('./src/fonts/*.woff2')
         .pipe(gulp.dest('./public/dist/fonts'));
 });
 
@@ -14,7 +14,7 @@ gulp.task('fonts', () => {
 gulp.task('scripts', () => {
     return gulp.src('src/js/*.js')
         .pipe(concat('main.min.js'))
-        .pipe(uglify())
+        //.pipe(uglify())
         .pipe(gulp.dest('./public/dist/js'));
 });
 
@@ -33,4 +33,4 @@ gulp.task('html', () => {
         .pipe(gulp.dest('./public/'));
 });
 
-gulp.task('default', ['fonts', 'scripts', 'stylesheet', 'html']);
+gulp.task('default', gulp.series(['fonts', 'scripts', 'stylesheet', 'html']));

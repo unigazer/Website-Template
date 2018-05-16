@@ -1,21 +1,20 @@
 // And so it begins...
 
 // Declaring variables
-let mssg = "Hello World!";
+var msg = "Hello World!";
 
 // Arrow function
-var myFunction = () => alert(mssg);
+var myFunction = () => alert(msg);
 
 // onload event
 addEventListener('load', myFunction());
 
 // Service Worker
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js', {scope: '/'})
-    .then(() => {
-        console.log('Service Worker registered.')
-    })
-    .catch(e => {
-        console.log(`Service Worker failed to register, ${e}`)
-    })
+    navigator.serviceWorker.register('sw.js')
+        .then(() => {
+            console.info('Service Worker registered.');
+        }).catch(err => {
+            console.error(`Service Worker failed to register, ${err}`);
+        });
 }
