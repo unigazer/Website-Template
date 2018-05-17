@@ -23,7 +23,7 @@
     "url": "https://github.com/VladimirDev93/Website-Template/issues"
   },
   "engines": {
-    "node": "v8.11.1",
+    "node": "10",
     "npm": "v5.7.0"
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
