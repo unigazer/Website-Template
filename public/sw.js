@@ -17,7 +17,7 @@ addEventListener('install', e => {
                 './dist/fonts/fa-solid-900.woff2',
                 './dist/js/main.min.js'
                 // Add your files here, those that are needed by the index.html. Must be absolute path
-                // './path-to-my-custom-file
+                // './path-to-my-custom-file'
             ]);
         })
     );
