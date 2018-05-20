@@ -8,6 +8,11 @@ The basic setup for new web page. It's not rocket science, it's just copy/paste 
 
 # Installation
 
+```bash
+npm i -g fe-template
+```
+or
+
 1. Clone the repo.
 ```bash
 git clone https://github.com/VladimirDev93/website-template.git
