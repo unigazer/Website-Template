@@ -1,7 +1,7 @@
 {
   "name": "website-template",
   "productName": "Website Template",
-  "version": "3.1.0",
+  "version": "3.1.2",
   "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
   "main": "index.html",
   "scripts": {
@@ -23,8 +23,8 @@
     "url": "https://github.com/VladimirDev93/Website-Template/issues"
   },
   "engines": {
-    "node": "v8.11.1",
-    "npm": "v5.7.0"
+    "node": "latest",
+    "npm": "latest"
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
@@ -38,6 +38,7 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.0",
     "local-web-server": "^2.5.2",
-    "nyc": "^11.7.3"
+    "nyc": "^11.7.3",
+    "uglify-es": "^3.3.9"
   }
 }

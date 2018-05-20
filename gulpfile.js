@@ -1,8 +1,10 @@
 const gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
+    uglifyes = require('uglify-es'),
+    composer = require('gulp-uglify/composer'),
     minifyCSS = require('gulp-csso'),
     html = require('gulp-minify-html'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    uglify = composer(uglifyes, console); 
 
 // Move fonts
 gulp.task('fonts', () => {
@@ -14,7 +16,7 @@ gulp.task('fonts', () => {
 gulp.task('scripts', () => {
     return gulp.src('src/js/*.js')
         .pipe(concat('main.min.js'))
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest('./public/dist/js'));
 });
 
