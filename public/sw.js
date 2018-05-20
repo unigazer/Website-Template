@@ -8,14 +8,16 @@ addEventListener('install', e => {
     e.waitUntil(
         caches.open(CACHE).then(cache => {
             return cache.addAll([
-                // Add your files here, those that are needed by the index.html. Must be absolute path
                 './',
                 'index.html',
+                './manifest.json',
                 './dist/css/style.min.css',
                 './dist/fonts/fa-brands-400.woff2',
                 './dist/fonts/fa-regular-400.woff2',
                 './dist/fonts/fa-solid-900.woff2',
                 './dist/js/main.min.js'
+                // Add your files here, those that are needed by the index.html. Must be absolute path
+                // './path-to-my-custom-file'
             ]);
         })
     );
@@ -55,7 +57,7 @@ addEventListener('push', e => {
         body: payload.key.value,
         icon: 'path-to-icon',
         url: 'https://www.example.com'
-    }
+    })
 });
 
 // Close the notification

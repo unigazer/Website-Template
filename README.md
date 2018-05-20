@@ -1,10 +1,10 @@
-# Bootstrap Webpage Template
+# Webpage Template
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
 
-The basic setup for Bootstrap web page. It's not rocket science, it's just copy/paste code. I made this so that everytime when I'm working on a new project, I don't have to type the links for stylesheets in the head tag everytime and basically I don't have to set up the basic HTML template everytime.
+The basic setup for new web page. It's not rocket science, it's just copy/paste code. I made this so that everytime when I'm working on a new project, I don't have to type the links for stylesheets in the head tag everytime and basically I don't have to set up the basic HTML template everytime.
 
 # Installation
 
@@ -28,7 +28,7 @@ npm run eslint
 npm run build
 ```
 
-5. After you start developing, run this command in your terminal in order to see your code in your default browser.
+5. Navigate to the `public` folder and run this command to see the results.
 ```bash
 npm start
 ```
