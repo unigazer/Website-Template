@@ -1,6 +1,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_shield)
 
 # Welcome to the website of the future!
 This website page template includes:
@@ -10,7 +11,7 @@ This website page template includes:
 - Continuous Integration for GitLab Pages
 - Bootstrap 4 grid CSS
 - "Canonical.css", a CSS reset by [Marxo](https://twitter.com/marxo) (Marko Kazhich)
-- SEO Tempate
+- SEO Template
 
 Everything is already setup. Just write your code, run **npm run build**, start the app and see the result!
 
@@ -45,7 +46,7 @@ npm i
 npm run eslint
 ```
 
-4. Navigate to `src` folder and edit your files from there. Build the application first in order to see the results.
+4. Navigate to `src` folder and edit your files from there. Build the application first in order to see the result.
 ```bash
 npm run build
 ```
@@ -62,6 +63,10 @@ On the left terminal you can run the `npm run build` command every time you make
 you can watch if the error occurs with your local development server.
 
 ![img](img/vs_example.png)
+
+FOSSA Status
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_large)
 
 # Licence
 
