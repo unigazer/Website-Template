@@ -1,14 +1,3 @@
-// And so it begins...
-
-// Declaring variables
-var msg = "Hello World!";
-
-// Arrow function
-var myFunction = () => alert(msg);
-
-// onload event
-addEventListener('load', myFunction());
-
 // Service Worker
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js')
