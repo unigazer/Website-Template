@@ -1,7 +1,6 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_shield)
 
 # Welcome to the website of the future!
 This website page template includes:
@@ -64,10 +63,6 @@ you can watch if the error occurs with your local development server.
 
 ![img](img/vs_example.png)
 
-FOSSA Status
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_large)
-
 # Licence
 
 MIT License
@@ -79,3 +74,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_large)
