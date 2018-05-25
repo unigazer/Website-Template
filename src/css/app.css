@@ -15,12 +15,26 @@
     src: local('Font Awesome 5 Brands'), url('../dist/fonts/fa-brands-400.woff2') format('woff2');
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,
+p,
+li {
+    color: #fafafa;
+}
+
 header {
     width: 100%;
     height: inherit;
 }
 
-/* Footer */
+#root {
+    background: linear-gradient(120deg, #2d003f, #3f0054);
+    padding: 5%;
+    height: 100vh;
+}
 
 footer {
     width: 100%;
