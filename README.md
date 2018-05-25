@@ -1,17 +1,34 @@
-# Webpage Template
-
 [![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
 
-The basic setup for new web page. It's not rocket science, it's just copy/paste code. I made this so that everytime when I'm working on a new project, I don't have to type the links for stylesheets in the head tag everytime and basically I don't have to set up the basic HTML template everytime.
+# Welcome to the website of the future!
+This website page template includes:
+- Service Worker - Native App (Android and iOS), Offline, Push Notifications => a.k.a PWA!
+- HTML, CSS, JavaScript compressed and bundled
+- "Font Awesome 5" web icons
+- Continuous Integration for GitLab Pages
+- Bootstrap 4 grid CSS
+- "Canonical.css", a CSS reset by [Marxo](https://twitter.com/marxo) (Marko Kazhich)
+- SEO Tempate
 
-# Installation
+Everything is already setup. Just write your code, run **npm run build**, start the app and see the result!
+
+# Installation (WIP)
+
+**Not yet implemented!**
 
 ```bash
 npm i -g fe-template
 ```
-or
+
+# Usage
+
+```bash
+fe-template my-website
+```
+
+# Manual installation and usage
 
 1. Clone the repo.
 ```bash
@@ -37,6 +54,15 @@ npm run build
 ```bash
 npm start
 ```
+
+# Example
+
+This is an example on how you can use the popular Visual Studio Code editor to develop your website.
+On the left terminal you can run the `npm run build` command every time you make changes, and on the right terminal
+you can watch if the error occurs with your local development server.
+
+![img](img/vs_example.png)
+
 # Licence
 
 MIT License
