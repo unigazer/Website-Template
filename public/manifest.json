@@ -6,6 +6,7 @@
     "display": "standalone",
     "theme_color": "Color HEX",
     "background_color": "Color HEX",
+    "scope": "/",
     "icons": [
         {
             "src":"./img/favicon-96x96.png",
