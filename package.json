@@ -1,12 +1,12 @@
 {
   "name": "fe-template",
   "productName": "Website Template",
-  "version": "4.0.3",
-  "description": "Basic configuration of the starting HTML page. Everything is set up and ready to use.",
+  "version": "4.1.1",
+  "description": "Basic configuration of the starting HTML page. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "start": "ws",
-    "build": "gulp",
+    "build": "gulp && node src/js/sitemap",
     "eslint": "eslint --init",
     "test": "ava --verbose ./test/main.test.js",
     "babel": "babel ./src/js/app.js -d babel",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -38,7 +38,8 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.0",
     "local-web-server": "^2.5.2",
-    "nyc": "^12.0.1",
+    "nyc": "^12.0.2",
+    "sitemap": "^1.13.0",
     "uglify-es": "^3.3.9"
   }
 }

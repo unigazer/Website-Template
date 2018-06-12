@@ -10,6 +10,9 @@ This website page template includes:
 - Continuous Integration for GitLab Pages
 - Bootstrap 4 grid CSS
 - "Canonical.css", a CSS reset by [Marxo](https://twitter.com/marxo) (Marko Kazhich)
+- AVA Tests
+- NYC Code Coverage
+- Sitemap.xml Generator
 - SEO Template
 
 Everything is already setup. Just write your code, run **npm run build**, start the app and see the result!

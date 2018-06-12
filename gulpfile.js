@@ -9,15 +9,15 @@ const gulp = require('gulp'),
 // Move fonts
 gulp.task('fonts', () => {
     return gulp.src('./src/fonts/*.woff2')
-        .pipe(gulp.dest('./public/dist/fonts'));
+        .pipe(gulp.dest('./public/fonts'));
 });
 
 // Concatenate JavaScript files and create "main.min.js"
 gulp.task('scripts', () => {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/app.js')
         .pipe(concat('main.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./public/dist/js'));
+        .pipe(gulp.dest('./public/js'));
 });
 
 // Concatenate stylesheetss and create "style.min.css"
@@ -25,7 +25,7 @@ gulp.task('stylesheet', () => {
     return gulp.src('src/css/*.css')
         .pipe(concat('style.min.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./public/dist/css'));
+        .pipe(gulp.dest('./public/css'));
 });
 
 // Minify HTML files
@@ -35,4 +35,23 @@ gulp.task('html', () => {
         .pipe(gulp.dest('./public/'));
 });
 
-gulp.task('default', gulp.series(['fonts', 'scripts', 'stylesheet', 'html']));
+// Service Worker
+gulp.task('SW', () => {
+    return gulp.src('./src/sw.js')
+    .pipe(gulp.dest('./public/'));
+});
+
+// Manifest
+gulp.task('Manifest', () => {
+    return gulp.src('./src/manifest.json')
+    .pipe(gulp.dest('./public/'));
+});
+
+gulp.task('default', gulp.series([
+    'fonts', 
+    'scripts', 
+    'stylesheet', 
+    'html',
+    'SW',
+    'Manifest'
+]));
