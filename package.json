@@ -31,7 +31,7 @@
     "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
