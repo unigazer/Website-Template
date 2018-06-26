@@ -14,7 +14,7 @@ gulp.task('fonts', () => {
 
 // Concatenate JavaScript files and create "main.min.js"
 gulp.task('scripts', () => {
-    return gulp.src('src/js/app.js')
+    return gulp.src('src/js/main.js')
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./public/js'));
@@ -36,13 +36,13 @@ gulp.task('html', () => {
 });
 
 // Service Worker
-gulp.task('SW', () => {
+gulp.task('ServiceWorker', () => {
     return gulp.src('./src/sw.js')
     .pipe(gulp.dest('./public/'));
 });
 
 // Manifest
-gulp.task('Manifest', () => {
+gulp.task('manifest', () => {
     return gulp.src('./src/manifest.json')
     .pipe(gulp.dest('./public/'));
 });
@@ -52,6 +52,6 @@ gulp.task('default', gulp.series([
     'scripts', 
     'stylesheet', 
     'html',
-    'SW',
-    'Manifest'
+    'ServiceWorker',
+    'manifest'
 ]));
