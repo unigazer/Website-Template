@@ -1,12 +1,12 @@
 {
   "name": "fe-template",
   "productName": "Website Template",
-  "version": "4.1.1",
+  "version": "4.1.3",
   "description": "Basic configuration of the starting HTML page. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "start": "ws",
-    "browserify": "browserify ./src/js/app.js -o ./src/js/main.js",
+    "browserify": "browserify ./src/js/app.js -o ./src/js/main.js --debug",
     "build": "npm run browserify && gulp && node src/js/sitemap",
     "eslint": "eslint --init",
     "test": "ava --verbose ./test/main.test.js",
