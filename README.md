@@ -13,6 +13,7 @@ This website page template includes:
 - "Canonical.css", a CSS reset by [Marxo](https://twitter.com/marxo) (Marko Kazhich)
 - AVA Tests
 - NYC Code Coverage
+- WebdriverIO
 - Sitemap.xml Generator
 - SEO Template
 

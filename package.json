@@ -2,7 +2,7 @@
   "name": "fe-template",
   "productName": "Website Template",
   "version": "4.2.0",
-  "description": "Basic configuration of the starting HTML page. Everything is already set up and ready to use.",
+  "description": "Boilerplate for the Single Page Application. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
     "start": "ws",
