@@ -1,4 +1,4 @@
-[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=<badge_key>)](https://www.browserstack.com/automate/public-build/vladimir774:9sP4x15bNG6zVTHS8Hox)
+[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=WFlzQW80aWFpZnVVTVZXZVI1dnhIQnhrZGk0dml4VHRqanJqN0pxc2VxRT0tLU94Vi82WGdyc002alZlZ0p5S2wwd3c9PQ==--bbbcec23383d5844bfb67d7bcac60488ac858fdf)](https://www.browserstack.com/automate/public-build/WFlzQW80aWFpZnVVTVZXZVI1dnhIQnhrZGk0dml4VHRqanJqN0pxc2VxRT0tLU94Vi82WGdyc002alZlZ0p5S2wwd3c9PQ==--bbbcec23383d5844bfb67d7bcac60488ac858fdf)
 [![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
