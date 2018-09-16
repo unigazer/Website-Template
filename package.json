@@ -1,7 +1,7 @@
 {
   "name": "fe-template",
   "productName": "Website Template",
-  "version": "4.3.1",
+  "version": "4.3.2",
   "description": "Boilerplate for the Single Page Application. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
@@ -37,7 +37,7 @@
     "babel-preset-env": "^1.7.0",
     "browserify": "^16.2.2",
     "chromedriver": "^2.41.0",
-    "eslint": "^5.5.0",
+    "eslint": "^5.6.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
