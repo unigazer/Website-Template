@@ -11,11 +11,10 @@ addEventListener('install', e => {
                 './',
                 'index.html',
                 './manifest.json',
-                './css/style.min.css',
-                './fonts/fa-brands-400.woff2',
-                './fonts/fa-regular-400.woff2',
-                './fonts/fa-solid-900.woff2',
-                './js/main.min.js'
+                '/.*\.css/',
+                '/.*\.(?:png|jpg|jpeg|svg|gif)/',
+                '/.*\.woff2',
+                '/.*\.js/'
                 // Add your files here, those that are needed by the index.html. Must be absolute path
                 // './path-to-my-custom-file'
             ]);
