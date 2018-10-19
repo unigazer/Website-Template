@@ -8,22 +8,21 @@
     "background_color": "#fff",
     "scope": "/",
     "splash_screens": [{
-      "src": "./img/splash/splash-android-240x320.png",
-      "sizes": "240x320",
-      "type": "image/png"
+        "src": "./img/splash/splash-android-240x320.png",
+        "sizes": "240x320",
+        "type": "image/png"
     }, {
-      "src": "./img/splash/splash-android-750x1334.png",
-      "sizes": "750x1334",
-      "type": "image/png"
+        "src": "./img/splash/splash-android-750x1334.png",
+        "sizes": "750x1334",
+        "type": "image/png"
     }, {
-      "src": "./img/splash/splash-android-1080x1920.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "density": 3
+        "src": "./img/splash/splash-android-1080x1920.png",
+        "sizes": "1080x1920",
+        "type": "image/png",
+        "density": 3
     }],
-    "icons": [
-        {
-            "src":"./img/favicon-96x96.png",
+    "icons": [{
+            "src": "./img/favicon-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
