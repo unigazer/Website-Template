@@ -4,9 +4,9 @@
 var CACHE = 'my-cache-name';
 
 // Install event
-addEventListener('install', e => {
+addEventListener('install', (e) => {
     e.waitUntil(
-        caches.open(CACHE).then(cache => {
+        caches.open(CACHE).then((cache) => {
             return cache.addAll([
                 './',
                 'index.html',
@@ -23,24 +23,24 @@ addEventListener('install', e => {
 });
 
 // Fetch event
-addEventListener('fetch', e => {
+addEventListener('fetch', (e) => {
     e.respondWith(fromCache(e.request));
     e.waitUntil(updateCache(e.request));
 });
 
 // Load from cache
-var fromCache = request => {
-    return caches.open(CACHE).then(cache => {
-        return cache.match(request).then(response => {
+function fromCache(request) {
+    return caches.open(CACHE).then((cache) => {
+        return cache.match(request).then((response) => {
             return response || Promise.reject('no-match');
         });
     });
 };
 
 // Fetch from network
-var updateCache = request => {
-    return caches.open(CACHE).then(cache => {
-        return fetch(request).then(response => {
+function updateCache(request) {
+    return caches.open(CACHE).then((cache) => {
+        return fetch(request).then((response) => {
             return cache.put(request, response);
         });
     });
@@ -48,8 +48,8 @@ var updateCache = request => {
 
 // Push event
 // You need to subscribe the user on frontend in order for this to work
-addEventListener('push', e => {
-    const payload = e.data.json();
+addEventListener('push', (e) => {
+    let payload = e.data.json();
     
     // Send the notification
     self.registration.showNotification('My custom title', {
@@ -60,6 +60,6 @@ addEventListener('push', e => {
 });
 
 // Close the notification
-addEventListener('notificationclick', e => {
+addEventListener('notificationclick', (e) => {
     e.notification.close();
 });
