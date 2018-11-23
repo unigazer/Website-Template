@@ -1,15 +1,18 @@
 @font-face {
     font-family: 'Font Awesome 5 Regular';
-    src: local('Font Awesome 5 Regular'), url('../dist/fonts/fa-regular-400.woff2') format('woff2'),
+    font-display: swap;
+    src: local('Font Awesome 5 Regular'), url('../dist/fonts/fa-regular-400.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Font Awesome 5 Solid';
+    font-display: swap;
     src: local('Font Awesome 5 Solid'), url('../dist/fonts/fa-solid-900.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Font Awesome 5 Brands';
+    font-display: swap;
     src: local('Font Awesome 5 Brands'), url('../dist/fonts/fa-brands-400.woff2') format('woff2');
 }
 
