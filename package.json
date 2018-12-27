@@ -44,7 +44,7 @@
     "gulp-imagemin": "^5.0.3",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.1",
-    "local-web-server": "^2.6.0",
+    "local-web-server": "^2.6.1",
     "nyc": "^13.1.0",
     "sitemap": "^2.1.0",
     "uglify-es": "^3.3.9",
