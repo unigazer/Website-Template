@@ -8,6 +8,7 @@ This website page template includes:
 - Service Worker - Native App (Android and iOS), Offline, Push Notifications => a.k.a PWA!
 - HTML, CSS, JavaScript compressed and bundled
 - Browserify, use npm packages!
+- Client-side routes
 - "Font Awesome 5" web icons
 - Continuous Integration for GitLab Pages
 - Bootstrap 4 grid CSS
