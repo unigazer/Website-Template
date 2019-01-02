@@ -51,7 +51,7 @@ npm i
 npm run eslint
 ```
 
-4. Navigate to `src` folder and edit your files from there. Build the application first in order to see the result.
+4. Navigate to `src` folder and edit your files from there. Build the application in order to see the result.
 ```bash
 npm run build
 ```
