@@ -9,12 +9,13 @@ addEventListener('install', (e) => {
         caches.open(CACHE).then((cache) => {
             return cache.addAll([
                 './',
-                'index.html',
+                './index.html',
                 './manifest.json',
-                '/.*\.css/',
-                '/.*\.(?:png|jpg|jpeg|svg|gif)/',
-                '/.*\.woff2',
-                '/.*\.js/'
+                './css/style.min.css',
+                './js/main.min.js',
+                './fonts/fa-brands-400.woff2',
+                './fonts/fa-regular-400.woff2',
+                './fonts/fa-solid-900-woff2'
                 // Add your files here, those that are needed by the index.html. Must be absolute path
                 // './path-to-my-custom-file'
             ]);

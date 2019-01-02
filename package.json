@@ -5,7 +5,7 @@
   "description": "Boilerplate for the Single Page Application. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
-    "start": "lite-server",
+    "start": "ws",
     "browserify": "browserify ./src/js/app.js -o ./src/js/main.js --debug",
     "build": "npm run browserify && gulp && node ./src/js/sitemap",
     "eslint": "eslint --init",
@@ -44,7 +44,7 @@
     "gulp-imagemin": "^5.0.3",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.1",
-    "lite-server": "^2.4.0",
+    "local-web-server": "^2.6.1",
     "nyc": "^13.1.0",
     "sitemap": "^2.1.0",
     "uglify-es": "^3.3.9",

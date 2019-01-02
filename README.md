@@ -61,6 +61,13 @@ npm run build
 npm start
 ```
 
+If for some reason `local-web-server` is having issues, install the module globally, then run the
+following command:
+```bash
+cd public
+ws --spa index.html
+```
+
 # Example
 
 This is an example on how you can use the popular Visual Studio Code editor to develop your website.
