@@ -53,6 +53,6 @@
     "wdio-chromedriver-service": "^0.1.5",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.12",
-    "webdriverio": "^5.2.5"
+    "webdriverio": "^5.2.6"
   }
 }
