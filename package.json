@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "start": "ws",
-    "browserify": "browserify ./src/js/app.js -o ./src/js/main.js --debug",
+    "browserify": "browserify ./src/js/main.js -o ./src/js/transformed.js --debug",
     "build": "npm run browserify && gulp && node ./src/js/sitemap",
     "eslint": "eslint --init",
     "test": "ava --verbose ./test/main.test.js",

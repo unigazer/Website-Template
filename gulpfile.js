@@ -1,11 +1,11 @@
-const gulp = require('gulp'),
-    uglifyes = require('uglify-es'),
-    composer = require('gulp-uglify/composer'),
-    minifyCSS = require('gulp-csso'),
-    html = require('gulp-minify-html'),
-    imagemin = require('gulp-imagemin'),
-    concat = require('gulp-concat'),
-    uglify = composer(uglifyes, console);
+const gulp = require('gulp');
+const uglifyes = require('uglify-es');
+const composer = require('gulp-uglify/composer');
+const minifyCSS = require('gulp-csso');
+const html = require('gulp-minify-html');
+const imagemin = require('gulp-imagemin');
+const concat = require('gulp-concat');
+const uglify = composer(uglifyes, console);
 
 // Move fonts
 gulp.task('fonts', () => {
@@ -15,7 +15,7 @@ gulp.task('fonts', () => {
 
 // Compress images
 gulp.task('images', () => {
-    return gulp.src('src/images/*')
+    return gulp.src('src/img/*')
         .pipe(imagemin([
             imagemin.gifsicle({
                 interlaced: true
@@ -43,7 +43,7 @@ gulp.task('images', () => {
 
 // Concatenate JavaScript files and create "main.min.js"
 gulp.task('scripts', () => {
-    return gulp.src('src/js/main.js')
+    return gulp.src('src/js/transformed.js')
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('public/js'));
