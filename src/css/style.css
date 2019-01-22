@@ -26,23 +26,15 @@ li {
     color: #fafafa;
 }
 
-header {
-    a {
-        .klasa {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: inherit;
-        }
+main {
+    #root {
+        background: linear-gradient(120deg, #2d003f, #3f0054);
+        padding: 5%;
+        height: 100vh;
     }
 }
 
-#root {
-    background: linear-gradient(120deg, #2d003f, #3f0054);
-    padding: 5%;
-    height: 100vh;
-}
-
+header,
 footer {
     width: 100%;
     height: inherit;
