@@ -27,8 +27,14 @@ li {
 }
 
 header {
-    width: 100%;
-    height: inherit;
+    a {
+        .klasa {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: inherit;
+        }
+    }
 }
 
 #root {

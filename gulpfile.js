@@ -2,6 +2,9 @@ const gulp = require('gulp');
 const uglifyes = require('uglify-es');
 const composer = require('gulp-uglify/composer');
 const minifyCSS = require('gulp-csso');
+const postcss = require('gulp-postcss');
+const postcssPresetEnv = require('postcss-preset-env');
+const sourcemaps = require('gulp-sourcemaps');
 const html = require('gulp-minify-html');
 const imagemin = require('gulp-imagemin');
 const concat = require('gulp-concat');
@@ -52,6 +55,18 @@ gulp.task('scripts', () => {
 // Concatenate stylesheetss and create "style.min.css"
 gulp.task('stylesheet', () => {
     return gulp.src('src/css/*.css')
+        //.pipe(sourcemaps.init())
+        .pipe(postcss(
+            [
+                require('precss'),
+                require('autoprefixer'),
+                postcssPresetEnv({
+                    stage: 3,
+                    browsers: 'last 2 versions'
+                })
+            ]
+        ))
+        //.pipe(sourcemaps.write('.'))
         .pipe(concat('style.min.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('public/css'));
