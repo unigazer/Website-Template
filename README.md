@@ -11,6 +11,7 @@ This website page template includes:
 - Client-side routes
 - "Font Awesome 5" web icons
 - Continuous Integration for GitLab Pages
+- PostCSS
 - Bootstrap 4 grid CSS
 - "Canonical.css", a CSS reset by [Marxo](https://twitter.com/marxo) (Marko Kazhich)
 - AVA Tests
