@@ -1,7 +1,7 @@
 {
   "name": "fe-template",
   "productName": "Website Template",
-  "version": "4.4.4",
+  "version": "4.4.5",
   "description": "Boilerplate for the Single Page Application. Everything is already set up and ready to use.",
   "main": "index.html",
   "scripts": {
@@ -26,7 +26,7 @@
     "url": "https://github.com/VladimirDev93/Website-Template/issues"
   },
   "engines": {
-    "node": "latest",
+    "node": "10",
     "npm": "latest"
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
