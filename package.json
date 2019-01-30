@@ -34,8 +34,8 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "allure-commandline": "^2.9.0",
-    "autoprefixer": "^9.4.6",
-    "ava": "^1.1.0",
+    "autoprefixer": "^9.4.7",
+    "ava": "^1.2.0",
     "babel-cli": "^6.26.0",
     "browserify": "^16.2.3",
     "chromedriver": "^2.45.0",
@@ -61,7 +61,7 @@
     "wdio-chromedriver-service": "^0.1.5",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.12",
-    "webdriverio": "^5.3.5"
+    "webdriverio": "^5.4.8"
   },
   "postcss": {
     "plugins": {
