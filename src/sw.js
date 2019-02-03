@@ -54,7 +54,7 @@ addEventListener('push', (e) => {
     
     // Send the notification
     self.registration.showNotification('My custom title', {
-        body: 'This should be received from the server',
+        body: 'This should be received from the server (payload)',
         icon: 'path-to-icon',
         url: 'https://www.example.com'
     })

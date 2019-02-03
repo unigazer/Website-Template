@@ -52,9 +52,9 @@ gulp.task('scripts', () => {
         .pipe(gulp.dest('public/js'));
 });
 
-// Concatenate stylesheetss and create "style.min.css"
+// Concatenate stylesheetss
 gulp.task('stylesheet', () => {
-    return gulp.src('src/css/*.css')
+    return gulp.src('src/**/*.css')
         //.pipe(sourcemaps.init())
         .pipe(postcss(
             [

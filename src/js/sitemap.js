@@ -19,7 +19,7 @@ var sitemap = sm.createSitemap({
 // Generates XML with a callback function
 sitemap.toXML(function (err, xml) {
     if (!err) {
-        fs.writeFile('public/sitemap.xml', xml, err => {
+        fs.writeFile('public/sitemap.xml', xml, (err) => {
             if (err) console.error(err);
         });
     }

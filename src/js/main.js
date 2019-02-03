@@ -7,3 +7,6 @@ if ('serviceWorker' in navigator) {
             console.error(`Service Worker failed to register, ${err}`);
         });
 }
+
+// Dev tools
+console.log('%cAll systems up!', 'font: 50px monospace; color: green;');
