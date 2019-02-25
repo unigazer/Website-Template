@@ -34,7 +34,7 @@
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
     "allure-commandline": "^2.9.0",
-    "autoprefixer": "^9.4.8",
+    "autoprefixer": "^9.4.9",
     "ava": "^1.2.1",
     "babel-cli": "^6.26.0",
     "bootstrap": "^4.3.1",
