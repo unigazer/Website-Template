@@ -1,10 +1,12 @@
 [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=WFlzQW80aWFpZnVVTVZXZVI1dnhIQnhrZGk0dml4VHRqanJqN0pxc2VxRT0tLU94Vi82WGdyc002alZlZ0p5S2wwd3c9PQ==--bbbcec23383d5844bfb67d7bcac60488ac858fdf)](https://www.browserstack.com/automate/public-build/WFlzQW80aWFpZnVVTVZXZVI1dnhIQnhrZGk0dml4VHRqanJqN0pxc2VxRT0tLU94Vi82WGdyc002alZlZ0p5S2wwd3c9PQ==--bbbcec23383d5844bfb67d7bcac60488ac858fdf)
-[![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/VladimirDev93/Website-Template.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/VladimirDev93/Website-Template.svg?branch=master)](https://travis-ci.org/VladimirDev93/Website-Template)
 [![devDependencies Status](https://david-dm.org/VladimirDev93/Website-Template/dev-status.svg)](https://david-dm.org/VladimirDev93/Website-Template?type=dev)
 
 # Welcome to the website of the future!
+
 This website page template includes:
+
 - Service Worker - Native App (Android and iOS), Offline, Push Notifications => a.k.a PWA!
 - HTML, CSS, JavaScript compressed and bundled
 - Browserify, use npm packages!
@@ -19,6 +21,7 @@ This website page template includes:
 - WebdriverIO
 - Sitemap.xml Generator
 - SEO Template
+- Awesome stuff
 
 Everything is already setup. Just write your code, run **npm run build**, start the app and see the result!
 
@@ -39,32 +42,38 @@ fe-template my-website
 # Manual installation and usage
 
 1. Clone the repo.
+
 ```bash
 git clone https://github.com/VladimirDev93/website-template.git
 ```
 
-2. Open the terminal in ``website-template`` directory, and enter the following command first.
+2. Open the terminal in `website-template` directory, and enter the following command first.
+
 ```bash
-npm i 
+npm i
 ```
 
 3. Run the following command in your terminal, in order to configure ESLint file.
+
 ```bash
 npm run eslint
 ```
 
 4. Navigate to `src` folder and edit your files from there. Build the application in order to see the result.
+
 ```bash
 npm run build
 ```
 
 5. Navigate to the `public` folder and run this command to see the results.
+
 ```bash
 npm start
 ```
 
 If for some reason `local-web-server` is having issues, install the module globally, then run the
 following command:
+
 ```bash
 ws --spa index.html
 ```
@@ -88,6 +97,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVladimirDev93%2FWebsite-Template?ref=badge_large)
