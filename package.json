@@ -49,7 +49,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.1",
+    "gulp-uglify": "^3.0.2",
     "local-web-server": "^2.6.1",
     "navigo": "^7.1.2",
     "nyc": "^13.3.0",
