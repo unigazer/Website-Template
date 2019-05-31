@@ -52,7 +52,7 @@
     "gulp-uglify": "^3.0.1",
     "local-web-server": "^2.6.1",
     "navigo": "^7.1.2",
-    "nyc": "^13.3.0",
+    "nyc": "^14.1.1",
     "postcss-nested": "^4.1.2",
     "postcss-preset-env": "^6.5.0",
     "postcss-safe-parser": "^4.0.1",
