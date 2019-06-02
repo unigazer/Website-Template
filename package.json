@@ -35,7 +35,7 @@
     "@babel/preset-env": "^7.3.4",
     "allure-commandline": "^2.9.0",
     "autoprefixer": "^9.5.1",
-    "ava": "^1.2.1",
+    "ava": "^2.0.0",
     "babel-cli": "^6.26.0",
     "bootstrap": "^4.3.1",
     "browserify": "^16.2.3",
