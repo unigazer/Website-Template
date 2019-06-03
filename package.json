@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "allure-commandline": "^2.9.0",
     "autoprefixer": "^9.5.1",
