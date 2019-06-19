@@ -63,7 +63,7 @@
     "wdio-chromedriver-service": "^5.0.2",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.12",
-    "webdriverio": "^5.10.5"
+    "webdriverio": "^5.10.7"
   },
   "postcss": {
     "plugins": {
