@@ -10,11 +10,7 @@
     "build": "npm run browserify && gulp && node ./src/js/sitemap",
     "eslint": "eslint --init",
     "test": "ava --verbose ./test/main.test.js",
-    "test:wdio": "wdio ./test/wdio.test.js",
-    "allure": "allure generate ./allure-results && allure open",
-    "babel": "babel ./src/js/app.js -d babel",
-    "nyc": "nyc ava --verbose ./src/js",
-    "coverage": "nyc report --reporter=html"
+    "babel": "babel ./src/js/app.js -d babel"
   },
   "repository": {
     "type": "git",
@@ -26,20 +22,18 @@
     "url": "https://github.com/VladimirDev93/Website-Template/issues"
   },
   "engines": {
-    "node": "10",
+    "node": "LTS",
     "npm": "latest"
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
-    "allure-commandline": "^2.9.0",
     "autoprefixer": "^9.6.1",
     "ava": "^2.2.0",
     "babel-cli": "^6.26.0",
     "bootstrap": "^4.3.1",
     "browserify": "^16.3.0",
-    "chromedriver": "^75.0.1",
     "eslint": "^6.0.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
@@ -52,18 +46,12 @@
     "gulp-uglify": "^3.0.2",
     "local-web-server": "^3.0.4",
     "navigo": "^7.1.2",
-    "nyc": "^14.1.1",
     "postcss-nested": "^4.1.2",
     "postcss-preset-env": "^6.7.0",
     "postcss-safe-parser": "^4.0.1",
     "precss": "^4.0.0",
     "sitemap": "^3.2.1",
-    "uglify-es": "^3.3.9",
-    "wdio-allure-reporter": "^0.8.3",
-    "wdio-chromedriver-service": "^5.0.2",
-    "wdio-mocha-framework": "^0.6.4",
-    "wdio-selenium-standalone-service": "0.0.12",
-    "webdriverio": "^5.11.0"
+    "uglify-es": "^3.3.9"
   },
   "postcss": {
     "plugins": {
