@@ -44,7 +44,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "local-web-server": "^3.0.4",
+    "local-web-server": "^3.0.6",
     "navigo": "^7.1.2",
     "postcss-nested": "^4.1.2",
     "postcss-preset-env": "^6.7.0",
