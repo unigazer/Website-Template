@@ -32,7 +32,7 @@
     "autoprefixer": "^9.7.2",
     "ava": "^2.4.0",
     "babel-cli": "^6.26.0",
-    "bootstrap": "^4.4.0",
+    "bootstrap": "^4.4.1",
     "browserify": "^16.5.0",
     "eslint": "^6.7.1",
     "gulp": "^4.0.2",
