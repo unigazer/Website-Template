@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/VladimirDev93/Website-Template#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.5",
+    "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.6",
     "autoprefixer": "^9.7.3",
     "ava": "^2.4.0",
