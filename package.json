@@ -38,7 +38,7 @@
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
-    "gulp-imagemin": "^7.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-minify-html": "^1.0.6",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
